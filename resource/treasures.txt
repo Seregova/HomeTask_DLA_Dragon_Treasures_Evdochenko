@@ -1,0 +1,7 @@
+coin,100
+sword,1500
+crown,5300
+ring,1100
+bracelet,600
+arkenston,100000
+heart of the ocean,50000
