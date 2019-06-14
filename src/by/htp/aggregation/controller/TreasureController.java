@@ -24,10 +24,8 @@ public class TreasureController {
         try{
             integer = Integer.parseInt(splittedRequest[1].replaceAll("\\s+",""));
         } catch (Exception exception){
-            //Почему не парсится стринг в инт
-            //System.out.println(exception.getMessage());
         }
-        //System.out.println(integer);
+      
         command.execute(integer);
     }
 }
