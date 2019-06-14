@@ -24,6 +24,7 @@ public class TreasureController {
         try{
             integer = Integer.parseInt(splittedRequest[1].replaceAll("\\s+",""));
         } catch (Exception exception){
+            System.out.println(exception.getMessage());
         }
       
         command.execute(integer);
